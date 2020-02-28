@@ -1,0 +1,38 @@
+$base: '.pt-editor';
+#{$base} {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  height: 100%;
+
+  &__search {
+    padding: 20px;
+    &-results {
+      padding-top: 20px;
+    }
+  }
+
+  &__view {
+    background-color: #F5F6F8;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+    #{$base}__canvas {
+      height: 100%;
+      width: 100%;
+    }
+    #{$base}__buttons {
+      border-top: 2px solid #D4D4D4;
+      width: 100%;
+      height: 80px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
