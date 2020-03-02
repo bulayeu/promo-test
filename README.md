@@ -1,6 +1,7 @@
 # Promo Test
 
-@TODO Link to the document with details
+## What to do
+https://docs.google.com/document/d/1ceY98ZhDlHalhjHtsXjV75AeJ6Acmdz6eyRPqf68tfI/edit?usp=sharing
 
 ## How to start
 - clone repository
